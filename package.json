@@ -1,0 +1,23 @@
+{
+  "name": "concourse-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "tape tests/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misupopo/concourse-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misupopo/concourse-test/issues"
+  },
+  "homepage": "https://github.com/misupopo/concourse-test#readme",
+  "devDependencies": {
+    "tape": "^5.0.1"
+  }
+}
