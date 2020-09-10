@@ -2,6 +2,7 @@
 
 const test = require('tape')
 
+// test v1.1
 test('test', (t) => {
   t.test('flag success', (t) => {
     try {
