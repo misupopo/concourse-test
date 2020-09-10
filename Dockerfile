@@ -1,6 +1,6 @@
-FROM busybox
+FROM node:10.16.0-alpine
 
-ADD hello-world /bin/hello-world
+ENV LISTEN_PORT=80
 
-ENV NAME=world
-ENTRYPOINT ["/bin/hello-world"]
+EXPOSE 80
+CMD tail -F ./

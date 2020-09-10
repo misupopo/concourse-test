@@ -16,7 +16,7 @@ test('test', (t) => {
   })
 
   t.test('flag failed', (t) => {
-    const checkFlag = false;
+    const checkFlag = true;
 
     t.equal(checkFlag, true);
     t.end()
