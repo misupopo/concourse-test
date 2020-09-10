@@ -3,7 +3,10 @@
 const test = require('tape')
 
 // test v1.1
+// test v1.2
 test('test', (t) => {
+  console.log('v1.2');
+
   t.test('flag success', (t) => {
     try {
       const checkFlag = true;
