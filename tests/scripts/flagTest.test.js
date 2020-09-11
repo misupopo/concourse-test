@@ -5,6 +5,7 @@ const test = require('tape')
 // test v1.1
 // test v1.2
 // test detect
+// test dummy push to tag filter
 test('test', (t) => {
   console.log('v1.2');
 
